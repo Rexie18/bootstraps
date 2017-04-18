@@ -3,9 +3,7 @@ body{
     z-index:0;
 }
 
-.jumbotron{
-background-color: #a6acf1;
-}
+
 .row-header{
     margin:0px auto;
     padding:0px auto;
@@ -24,6 +22,7 @@ background-color: #a6acf1;
     padding: 20px 0px 20px 0px;
 }
 
+.jumbotron{
     padding:70px 30px 70px 30px;
     margin:0px auto;
     background: #7986CB;
