@@ -66,10 +66,10 @@ address{
 date{
 background-image: url(../img/date-Icon.png);
 background-repeat: no-repeat;
-float: right;
+background-color: #ffffff;
 }
 time{
 background-image: url(../img/time-Icon.png);
 background-repeat: no-repeat;
-float: right;
+background-color: #ffffff;
 }
