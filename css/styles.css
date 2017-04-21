@@ -63,12 +63,12 @@ address{
     color:#000000;
 }
 
-date{
+date > form-control{
 background-image: url(../img/date-Icon.png);
 background-repeat: no-repeat;
 background-color: #ffffff;
 }
-time{
+time > form-control{
 background-image: url(../img/time-Icon.png);
 background-repeat: no-repeat;
 background-color: #ffffff;
