@@ -64,10 +64,10 @@ address{
 }
 
 date{
-background-image: url(../img/date-Icon.png) no-repeat white ;
-float: right;
+background-image: url(../img/date-Icon.png) no-repeat;
+//float: right;
 }
 time{
-background-image: url(../img/time-Icon.png) no-repeat white ;
-float: right;
+background-image: url(../img/time-Icon.png) no-repeat;
+//float: right;
 }
