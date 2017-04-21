@@ -62,3 +62,12 @@ address{
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
 }
+
+date{
+background: url(img/date-Icon) no-repeat white ;
+float: right;
+}
+time{
+background: url(img/time-Icon) no-repeat white ;
+float: right;
+}
