@@ -63,7 +63,7 @@ address{
     color:#000000;
 }
 
-date > form-control{
+/* date > form-control{
 background-image: url(../img/date-Icon.png);
 background-repeat: no-repeat;
 background-color: #ffffff;
@@ -73,3 +73,4 @@ background-image: url(../img/time-Icon.png);
 background-repeat: no-repeat;
 background-color: #ffffff;
 }
+ */
