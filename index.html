@@ -63,8 +63,27 @@
 	 
 	 <li><a href="https://rexie18.github.io/bootstraps/contactus.html">Contact</a></li>
     </ul>
-	 <form class="navbar-form navbar-right">
-        <div class="form-group">
+	 <form class="navbar-form navbar-right form-inline">
+        <ul class="nav navbar-nav navbar-right">
+                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+      </form>
+   </div>
+  </div>
+ </nav> 
+
+<div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Login </h4>
+            </div>
+            <div class="modal-body">
+<div class="form-group">
           <input type="text" class="form-control" placeholder="Email">
     	   <input type="text" class="form-control" placeholder="Password">
 	   <label class="checkbox-inline">
@@ -73,10 +92,12 @@
         </label>
         </div>
         <button type="submit" class="btn btn-info">Sign in</button>
-      </form>
-   </div>
-  </div>
- </nav> 
+	<button type="button" class="btn btn-default btn-sm"
+                       data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+        </div>
+    </div>
 	
  <header class="jumbotron">	 
  <!-- Main component for a primary marketing message or call to action -->
@@ -93,7 +114,9 @@
                 </div>
 		  <div class="col-xs-12 col-sm-2">
                     <p style="padding:20px;"></p>
-                     <p><a class="btn btn-danger btn-lg" href="index.html#reserve" role="button">Reserve Table</a></p>
+                     <p><a type="button" class="btn btn-warning btn-block"
+                    data-toggle="tooltip" title="Or Call us at +852 12345678"
+			   data-placement="bottom" href="#reserveform"></a></p>
                 </div>
             </div>
         </div>
@@ -222,7 +245,7 @@
 		   <p style="padding:20px;"></p>
 		<div class="col-sm-10 alert alert-warning alert-dismissible" role="alert">
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<strong>Warning!</strong> <span><a href="#"> call</a></span> us to reserve for more than six guests.
+			<strong>Warning!</strong> <span><a href="#" data-toggle="popover" title="Call for fast Reservation" data-content=" You can call us on <a href= "tel:00>0041900"> Call </a></span> us to reserve for more than six guests.
 		</div>
 	  </div>
         </div>
@@ -273,6 +296,19 @@
             </div>
         </div>
     </footer>
-
+<script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+	
+	$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+    </script>
+<!-- <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script> -->
 </body>
 </html>
