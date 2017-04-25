@@ -118,3 +118,7 @@ background-color: #ffffff;
     position: absolute;
     bottom: 0px;
 }
+
+#reserveModal > div > div > div.modal-body > div > div{
+    padding: 10px;
+}
