@@ -387,14 +387,14 @@
     </footer>
 
 <script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-         });
-	});
+//         $(document).ready(function(){
+//         $('[data-toggle="tooltip"]').tooltip();
+//          });
+// 	});
 
-	$(document).ready(function(){
-	$('[data-toggle="popover"]').popover(); 
-	 });
+// 	$(document).ready(function(){
+// 	$('[data-toggle="popover"]').popover(); 
+// 	 });
 
 	$(document).ready(function(){
         $("#mycarousel").carousel( { interval: 2000 } );
@@ -406,6 +406,14 @@
         $("#mycarousel").carousel('cycle');
         });
         });	
+	
+	$('#loginModal').on('shown.bs.modal', function () {
+  	$('#myInput').focus()
+	})
+
+	$('#reserveModal').on('shown.bs.modal', function () {
+  	$('#myInput').focus()
+	})
 
 </script>
 	
