@@ -119,6 +119,6 @@ background-color: #ffffff;
     bottom: 0px;
 }
 
-#reserveModal:nth-child(5){
+#reserveModal > div > div > div.modal-body > div > div{
     padding: 30px;
 }
