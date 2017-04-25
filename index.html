@@ -385,26 +385,29 @@
             </div>
         </div>
     </footer>
+
 <script>
         $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
          });
-});
-
-$(document).ready(function(){
-$('[data-toggle="popover"]').popover(); 
- });
+	});
 
 	$(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-                          $("#carousel-pause").click(function(){
-                $("#mycarousel").carousel('pause');
-            });
-                        $("#carousel-play").click(function(){
-                $("#mycarousel").carousel('cycle');
-            });
+	$('[data-toggle="popover"]').popover(); 
+	 });
+
+	$(document).ready(function(){
+        $("#mycarousel").carousel( { interval: 2000 } );
+        $("#carousel-pause").click(function(){
+        $("#mycarousel").carousel('pause');
+        });
+        
+	$("#carousel-play").click(function(){
+        $("#mycarousel").carousel('cycle');
+        });
         });	
 
-	</script>
+</script>
+	
 </body>
 </html>
