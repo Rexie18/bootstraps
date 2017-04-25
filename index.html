@@ -65,7 +65,7 @@
     </ul>
 	 <form class="navbar-form navbar-right form-inline">
         <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <li><a id="loginBn">
                     <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
@@ -407,6 +407,12 @@
 	$(document).ready(function(){
 	$("#reserveSeat").click(function(){
         $("#reserveModal").modal('show');
+        });
+        });
+	
+	$(document).ready(function(){
+	$("#loginBn").click(function(){
+        $("#loginModal").modal('show');
         });
         });	
 </script>
