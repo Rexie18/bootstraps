@@ -388,14 +388,6 @@
     </footer>
 
 <script>
-//         $(document).ready(function(){
-//         $('[data-toggle="tooltip"]').tooltip();
-//          });
-// 	});
-
-// 	$(document).ready(function(){
-// 	$('[data-toggle="popover"]').popover(); 
-// 	 });
 
 	$(document).ready(function(){
         $("#mycarousel").carousel( { interval: 2000 } );
@@ -408,12 +400,9 @@
         });
         });	
 	
-// 	$('#loginModal').click('shown.bs.modal', function ('show') {
-//   	$('#myInput').focus()
-// 	})
-	$(document).ready(function(){
-	$("#reserveSeat").click('shown.bs.modal', function ('show') {
-        $("#reserveModal").modal ('show');
+
+	$("#reserveSeat").click(function(){
+        $("#reserveModal").modal('show');
         });
         });	
 
