@@ -408,11 +408,11 @@
         });
         });	
 	
-	$('#loginModal').click('shown.bs.modal', function ('show') {
-  	$('#myInput').focus()
-	})
-
-	$("#reserveSeat").click(function(){
+// 	$('#loginModal').click('shown.bs.modal', function ('show') {
+//   	$('#myInput').focus()
+// 	})
+	$(document).ready(function(){
+	$("#reserveSeat").click('shown.bs.modal', function ('show') {
         $("#reserveModal").modal ('show');
         });
         });	
