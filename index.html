@@ -174,7 +174,8 @@
                 </div>
 		  <div class="col-xs-12 col-sm-2">
                     <p style="padding:20px;"></p>
-                     <p><a type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#reserveModal">Reserve</a></p>
+			<p><a type="button" class="btn btn-warning btn-block" id="reserveSeat">Reserve</a></p>
+<!--                      <p><a type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#reserveModal">Reserve</a></p> -->
                 </div>
             </div>
         </div>
@@ -411,9 +412,10 @@
   	$('#myInput').focus()
 	})
 
-	$('#reserveModal').click('shown.bs.modal', function ('show') {
-  	$('#myInput').focus()
-	})
+	$("#reserveSeat").click(function(){
+        $("#reserveModal").modal ('show');
+        });
+        });	
 
 </script>
 	
